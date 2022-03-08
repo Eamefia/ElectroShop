@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Raleway&family=Rubik&display=swap");
+
+
+
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/* typography class */
+font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+font-rale {
+    font-family: "Raleway", cursive;
+}
+
+font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+font-size {
+    font-size: 12;
+}
+
+font-size {
+    font-size: 14;
+}
+
+font-size {
+    font-size: 16;
+}
+
+font-size {
+    font-size: 20;
+}
+
+/* Color Template */
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00a5c4;
+}
+
+.color-second-bg {
+    background: #00a5c4;
+}
+
+.color-yellow {
+    color: #ffd289;
+}
+
+.color-yellow-bg {
+    background: #ffd289;
+}
+
+.input-search{
+    padding-top: 5px;
+    padding-left: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* top sale template */
+#top-sale .owl-carousel .item.product a {
+    overflow: hidden;
+}
+#top-sale .owl-carousel .item.product img {
+    transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item.product img {
+    transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+#product .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#product .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#product .owl-carousel .owl-nav button.owl-prev span,
+#product .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#product .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#product .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#product .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+
+.container-fluid{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+
+.main-container {
+    padding-top: 40px;
+}
+
+.main-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.main-container {
+    font-family: arial;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+.signup-form{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+
+
+
+.signup-form input{
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    line-height:40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+}
+
+.signup-form button{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    cursor: pointer;
+}
+ #phone {
+  display: none;
+}
+
+.signup-form button:hover{
+    background-color: #111;
+}
