@@ -75,11 +75,11 @@
                    }
                }else {?>
                     <div class="nav-item pr-2">
-                   <button class="color-second-bg pr-2" style="width:auto;"><a href="SignUp.php" style="color: white; text-decoration: none">Sign Up</a></button>
+                   <a href="SignUp.php" style="color: white; text-decoration: none">Sign Up</a>
                </div>
    
                <div class="nav-item pr-2">
-                   <button class="color-second-bg pr-2" style="width:auto;"><a href="login.php" style="color: white; text-decoration: none">Login</a></button>
+                   <a href="login.php" style="color: white; text-decoration: none">Login</a>
                </div>
                <?php
                }

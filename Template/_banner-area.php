@@ -7,8 +7,8 @@
     <?php foreach ($product_shuffle as $item) {
          if($item['Category'] == 'Banner'){
         ?>
-        <div class="item">
-        <img src="<?php echo $item['item_image'] ?? "./assets/products/1.jpg"; ?>" alt="product1" class="img-fluid" height="200px"></a>
+        <div class="item" style="height: 70vh; margin: 10px;">
+        <img src="<?php echo $item['item_image'] ?? "./assets/products/1.jpg"; ?>" alt="product1" class="img-fluid"></a>
         </div>
         <?php
           }

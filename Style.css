@@ -133,6 +133,9 @@ font-size {
     margin-right: -4rem;
 }
 
+#banner-area .owl-carousel .item.product img{
+    height: 60vh;
+}
 
 .container-fluid{
     width: 100%;
